@@ -1,0 +1,51 @@
+
+header h2{
+    font-size: 2.3rem;
+}
+header h3{
+    font-size: 1.3rem;
+}
+.main_section_conatiner{
+    width:280px;
+    
+}
+.container_foto1{/*hereda container foto2*/
+    height:165px;
+}
+.container_foto1 img{
+    height:125px;
+}
+.container_foto2 img{
+    width:50px;
+}
+.main_section_container--inputs{
+    width:370px;
+    height:315px;
+}
+.label_correo_electronico,.label_contraseña{
+    width:330px;
+}
+.label_correo_electronico input,.label_contraseña input{
+    width:300px;
+}
+.label_iniciar_sesion input{
+    width:330px;
+    font-size: 1.5rem;
+}
+.p_olvidaste-contraseña a{
+    font-size:1.55rem;
+}
+.label_crear-cuenta input{
+    width:190px;
+}
+.hola_container{
+    width:85%;
+}
+.hola{
+    
+    font-size:1.45rem;
+}
+.section_idiomas a,.section_opciones a{
+    padding:10px;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,27 @@
+
+    .container_mediaquerie{
+        display:inline-flex;
+        justify-content: center;
+        align-items:center;
+        margin-left:auto ;
+        margin-right: auto;
+        
+        margin-top: 40px;
+        gap: 130px;
+
+
+    }
+
+    .main_section_conatiner{
+        align-items:baseline;
+    }
+
+.hola_container{
+    width:40%;
+    margin-left: 442.5px;
+    
+}
+
+.footer_principal{
+    margin-top:190px;
+}
