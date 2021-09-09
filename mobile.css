@@ -14,7 +14,9 @@ hr{
     background-color: gray; 
     margin-bottom:15px;
     margin-top: -5px;
-    padding:0.05px;
+    padding:.8px;
+    opacity: .4;
+    z-index: 2;
 }
 
 
@@ -59,6 +61,8 @@ header h3{
 
 .container_foto2{
     background-color: #f5f6f7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .container_foto1 h2{color:#4b4f56;}
@@ -136,7 +140,7 @@ header h3{
 }
 .label_correo_electronico input,.label_contraseña input{
     width:260px;
-    
+    padding-left: 5px;
     outline: none;
     
 }
@@ -170,10 +174,66 @@ header h3{
     background-color:#42b72a;
 }
 
+.hola_container{
+   width:95%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+   text-align: center;
+}
+.hola{
+   color: #1c1e21; 
+   font-family: inherit;
+   font-size: 1.34rem;
+   font-weight: 300;
+   line-height: 18px;
+}
+
+/*footer*/
+.footer_principal{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    background-color:#fff;
+}
+.section_idiomas, .section_opciones{
+    text-align: center;
+   padding-top:20px;
+   padding-bottom:5px;
+}
+.section_idiomas a,.section_opciones a{
+    padding:7px;
+    
+    line-height:1.9rem;
+    color: #8a8d91;
+}
+
+
+
+
+.final_footer_p{
+    padding-left: 5px;
+    padding-top:50px;
+    padding-bottom: 3px;
+    background-color:#fff;
+    
+}
+.final_footer_p p{
+    text-align: left;
+    font-size:1.1rem;
+    font-weight:bold;
+    color:#8a8d91;
+    
+}
+
 
 
 @media(min-width:768px) {
-    main{
+    .container_mediaquerie{
         display:inline-flex;
         gap: 150px;
 
